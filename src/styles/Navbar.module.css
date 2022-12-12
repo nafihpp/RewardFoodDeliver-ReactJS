@@ -1,0 +1,77 @@
+.container {
+    height: 100px;
+    padding: 0px 50px;
+    background-color: #531aa9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.callButton {
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+}
+
+.texts {
+    margin-left: 20px;
+    color: white;
+}
+
+.text:first-child {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.text:last-child {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.list {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    color: white;
+}
+
+.listItem {
+    margin: 20px;
+    font-weight: 500;
+}
+
+.cart {
+    position: relative;
+}
+
+.counter {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #d1411e;
+}
+
+@media screen and (max-width: 480px) {
+}
