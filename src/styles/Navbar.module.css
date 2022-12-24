@@ -73,5 +73,8 @@
     color: #d1411e;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 786px) {
+    .list {
+        display: none;
+    }
 }
