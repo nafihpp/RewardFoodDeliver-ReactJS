@@ -67,7 +67,7 @@ const Button = styled.a`
     background-color: white;
     padding: 9px;
     border-radius: 6px;
-    margin-left: 387px;
+
     cursor: pointer;
     font-weight: 600;
     font-family: unset;
@@ -81,6 +81,10 @@ const LeafContainer = styled.div`
 `;
 const Leafimg = styled.img`
     width: 55%;
+    @media only screen and (min-width: 480px) {
+        margin-top: 75px;
+        margin-left: 73px;
+    }
 `;
 const Image = styled.img`
     display: block;
@@ -89,6 +93,9 @@ const Image = styled.img`
 const Headline = styled.h1`
     font-family: system-ui;
     font-size: 59px;
+    @media only screen and (min-width: 480px) {
+        font-size: 23px;
+    }
 `;
 const MainContainer = styled.section`
     background-color: #641ab9;

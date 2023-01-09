@@ -4,14 +4,8 @@ import Pizza from "../img/pizza.png";
 import styled from "styled-components";
 import Navbar from "./Navbar";
 import Size from "../img/size.png";
-import { StoreContext } from "../context/Store";
+import { StoreContext } from "../redux/store/index";
 const Product = () => {
-    const {
-        state: { user_basket },
-    } = useContext(StoreContext);
-
-    const basket = user_basket;
-    basket.map((ite) => {});
     const [orderSize, setOrderSize] = useState("");
     const [size, setSize] = useState(0);
     const [count, setCount] = useState(1);
@@ -26,7 +20,6 @@ const Product = () => {
     const addCart = () => {};
     return (
         <>
-            <Navbar />
             <div className={styles.container} key={item.id}>
                 <div className={styles.left}>
                     <div className={styles.imgContainer}>

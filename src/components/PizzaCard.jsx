@@ -116,7 +116,7 @@ const ParentList = styled.ul`
     margin-top: 15px;
 `;
 const Child = styled.li`
-    width: 23%;
+    width: 20%;
     margin-bottom: 46px;
     border-radius: 4px;
     padding: 4px;

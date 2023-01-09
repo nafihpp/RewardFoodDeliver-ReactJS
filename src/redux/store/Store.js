@@ -1,8 +1,8 @@
 import React, { createContext, useReducer } from "react";
-import Reducer from "./Reducer";
+import { Reducer } from "react";
 
 const initialState = {
-    user_basket: [
+    all_Products: [
         {
             name: "watermelon",
             price: 29,
